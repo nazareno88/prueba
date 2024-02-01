@@ -1,0 +1,622 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(../Assets/Fonts/Merriweather/Merriweather-BlackItalic.ttf);
+   }
+   
+   *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+   }
+   
+   /** NAVBAR **/
+   
+   .container-fluid{
+       background-color: blue;
+       padding: 10px;
+       font-family: Merriweather;
+   }
+   
+   .container-fluid img{
+   width: 40px;
+   }
+   
+   .nav-link{
+       color: black;
+   }
+   
+   .d-flex button{
+       background-color: white;
+       border: none;
+       color: black;
+   }
+   
+   .form-control{
+       text-align: center;
+   }
+   
+   /*Nav*/
+   
+   /*Main Index*/
+   
+   .main-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .main-container h1{
+       text-align: center;
+       font-family: Merriweather;
+       font-size: 70px;
+       margin: 10px;
+       color: black;
+   }
+   
+   .main-container img{
+       width:400px;
+       height: 350px;
+   
+   }
+   
+   .main-text h3{
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 30px;
+   color: black;
+   }
+   
+   .main-text h4{
+   font-size: 40px;
+   font-family: merriweather;
+   background-color: blue;
+   text-align: left ;
+   color: black;
+   }
+   
+   .slide{
+       margin: 10px 200px;
+   }
+   
+   .slide img{
+       height: 500px;
+   }
+   
+   .slide iframe{
+       height: 500px;
+       width: 100%;
+   }
+   
+   
+    /* Main Index*/
+   
+   
+   /* Footer Index*/
+   
+   .footer-title h2{
+       padding: 20px;
+       text-align: center;
+       font-size: 50px;
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+   
+   .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+   }
+   
+   .card-container{
+       border: 2px solid black;
+       width: 300px;
+       padding: 10px;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .card-container img{
+       object-fit: cover;
+       width: 100%;
+       height: 300px;
+   }
+   
+   .card-container a{
+       align-self: center;
+       border: 1px solid black;
+       padding: 10px;
+       background-color: blue;
+       text-decoration: none;
+       color: black;
+   }
+    
+   .footer{ 
+   background-color: blue;
+   margin: 20px 0 0 0;
+   text-align: center;
+   font-family: Merriweather; 
+   color: black;
+   font-size: 20px;
+   }
+   
+   /* Footer Index*/
+   
+   /*INDEX*/
+   
+   
+   
+   /*ZAPATILLAS*/
+   
+   /*Main Zapatillas*/
+   .subtitle{
+       text-align: center;
+       padding: 15px;
+   }
+   
+   .subtitle p{
+       font-size: 24px;
+   }
+   
+   .subtitle a{
+       background-color: darkblue;
+       color: white;
+       padding: 0 50px;
+       font-size: 30px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-decoration: none;
+   }
+   
+   .marcas-container{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .marcas{
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+   }
+   
+   .marcas img{
+       width: 270px;
+       height: 200px;
+       border: 2px solid black;
+       object-fit: cover;
+   }
+   
+   .marcas a{
+      align-self: center;
+      border: 2px solid black;
+      background-color: blue;
+      padding: 10px;
+      text-decoration: none;
+      color:white;
+   }
+   
+   
+   .productos{
+       display: grid;
+       grid-template-columns: repeat(2, 2fr);
+       justify-content: space-around;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .productos-list{
+       display: grid;
+       margin: 50px;
+       border: 2px solid black;
+   }
+   
+   .productos-list img{
+     object-fit: cover;
+     width: 500px;
+     height: 400px;
+   }
+   
+   .productos-list a{
+      border: 1px solid black;
+      margin: 10px 200px;
+      background-color: blue;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+   }
+   
+   /*Main Zapatillas*/
+   
+   /*Main Indumentaria*/
+   
+   .main-subtitle h2{
+       color: black;
+       background-color: blue;
+       font-size: 40px;
+       font-family: Merriweather;
+   }
+   
+   .galery-productos{
+       display: grid;
+       grid-template-columns: repeat(2,2fr);
+       grid-template-rows: auto;
+       width: 100%;
+       height: 100%;
+       gap: 20px;
+   }
+   
+   .productos-link{
+       display: grid;
+       width: 100%;
+       height: 100%;
+       border: 2px solid black;
+   }
+   
+   .productos-link img{ 
+   width: 100%;
+   height: 350px;
+   object-fit: cover;
+   
+   }
+   
+   .productos-link a{
+       text-decoration: none;
+       color: black;
+       background-color: blue;
+       align-self: center;
+       text-align: center;
+      margin: 10px 200px;
+       border:2px solid black;
+   }
+   
+   .productos-link a:hover{
+       color: black;
+       background-color: lightblue;
+   
+   }
+   
+   /*Main Indumentaria*/
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+   
+   
+   /*Index Tablet*/
+   
+   @media (min-width:768px) and (max-width:1024px){
+   
+       .container-fluid{
+           background-color:  rgb(44, 246, 84);
+           padding: 10px;
+           font-family: Merriweather;
+       }
+   
+       body{
+           background-color:rgb(197, 244, 226);
+       }
+   
+       .galery-main{
+           width: 100%;
+           display: grid;
+           justify-content: center;
+           align-items: center;
+           gap: 10px;
+           padding: 15px;
+       }
+       .galery-main img{ 
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           object-fit: cover;
+         }
+   
+       .main-text h4{
+           margin: 30px 0;
+           background-color: rgb(44, 246, 84);
+           text-align: center;
+       }
+   
+       .main-text h5{
+           text-align: center;
+           border: 1px solid black;
+           margin: 20px 80px;
+   
+       }
+       
+       .container {
+           display: grid;
+           gap: 10px;
+       }
+       
+       .card-container a {
+           background-color: rgb(44, 246, 84);
+       }
+   
+       .card-container{
+           text-align: center;
+           font-size: 18px;
+       }
+   
+       .footer{ 
+           background-color: rgb(44, 246, 84);
+          
+           }
+   
+           .slide{
+               margin: 10px 60px;
+           }
+       }
+   
+   /*index Tablet*/
+   
+   /*Index Celular*/
+      
+   @media (min-width:320px) and (max-width:767px){
+       
+       .container-fluid{
+           background-color: violet;
+           padding: 10px;
+           font-family: Merriweather;
+       }
+   
+       .galery-main{
+           width: 100%;
+           display: grid;
+           justify-content: center;
+           align-items: center;
+           gap: 10px;
+           border: 2px solid black;
+   
+       }
+       .galery-main img{ 
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         object-fit: cover;
+       }
+       .galery-main iframe{ 
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           object-fit: cover;
+         }
+       
+       .main-text h4{
+           margin: 30px 0;
+           background-color: violet;
+           text-align: center;
+       }
+   
+       .main-text h5{
+           text-align: center;
+           border: 1px solid rgb(66, 63, 63);
+           margin: 20px 80px;
+           background-color: blueviolet;
+   
+   }
+   .container {
+       display: grid;
+       gap: 10px;
+   }
+   
+   .card-container a {
+       background-color:violet;
+   }
+   
+   .card-container{
+       text-align: center;
+       font-size: 18px;
+   }
+   
+   body{
+       background-color:lightgray ;
+   }
+   
+   .main-container img{
+       width: 250px;
+       height: 200px;
+   }
+   .footer{ 
+       background-color: violet;
+       
+       }
+   
+       .slide{
+           margin: 10px 0;
+       }
+   }
+   
+   /*Index Celular*/
+   
+   /*zapatillas Tablet*/
+   
+   @media (min-width:768px) and (max-width:1024px){
+   
+       .subtitle a{
+           background-color: darkgreen;
+           color: white;
+           padding: 0 50px;
+           font-size: 30px;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           text-decoration: none;
+       }
+   
+       .marcas-container{
+           display: grid;
+       }
+   
+       .marcas a {
+           padding: 20px;
+           margin: 10px;
+       }
+   
+       .marcas a{
+           align-self: center;
+           border: 2px solid black;
+           background-color:rgb(44, 246, 84);
+           padding: 10px;
+           text-decoration: none;
+           color:black;
+       }
+   
+   
+       .productos{
+           width: 100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           columns: 200px 200px;
+           
+       }
+   
+   
+       .productos-list img{
+           width: 100%;
+           height: 100;
+           object-fit: cover;
+       
+       }
+   
+       .productos-list a{
+           border: 1px solid black;
+           margin: 10px 200px;
+           background-color: rgb(44, 246, 84);
+           text-decoration: none;
+           color: black;
+           text-align: center;
+        }
+   
+   }
+   
+   /*zapatillas Tablet*/
+   
+   /*zapatillas Celular*/
+   @media (min-width:320px) and (max-width:767px){
+   
+       .subtitle a{
+           background-color: darkviolet;
+           color: white;
+           padding: 0 50px;
+           font-size: 30px;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           text-decoration: none;
+       }
+   
+       .marcas-container{
+           display: grid;
+   
+           gap: 10px;
+       }
+   
+       .marcas a{
+           align-self: center;
+           border: 2px solid black;
+           background-color:violet;
+           padding: 10px;
+           text-decoration: none;
+           color:black;
+       }
+   
+       .productos{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           
+       }
+   
+   
+       .productos-list{
+           display: flex;;
+           flex-direction: column;
+           width: 70%;       
+       }
+   
+       .productos-list img{
+           width: 100%;
+           object-fit: cover;
+       
+       }
+   
+       .productos-list a{
+           width: 50%;
+           border: 1px solid black;
+           background-color: violet;
+           text-decoration: none;
+           color: black;
+           text-align: center;
+           align-self: center;
+        }
+   }
+   
+   /*Tablet Indumentaria*/
+   
+   @media (min-width:768px) and (max-width:1024px){
+   
+    .main-subtitle h2{
+       background-color: rgb(44, 246, 84);
+    }   
+   
+   .galery-productos{
+       display: grid;
+       grid-template-columns:min-content;
+       justify-content: center;
+   } 
+   
+   .productos-link a{
+       background-color: rgb(44, 246, 84);
+   }
+   
+   .productos-link a:hover{
+       color: white;
+       background-color: darkgreen;
+   
+   }
+   
+   }
+   
+   /*Tablet Indumentaria*/
+   
+   /*Celular Indumentaria*/
+   @media (min-width:320px) and (max-width:767px){
+   
+       .main-subtitle h2{
+           background-color: violet;
+        }   
+       
+       .galery-productos{
+           display: grid;
+           grid-template-columns:min-content;
+           justify-content: center;
+       } 
+       
+       .productos-link a{
+           background-color: violet;
+       }
+       
+       .productos-link a:hover{
+           color: white;
+           background-color: darkmagenta;
+       
+       }
+   
+   
+   }
+   /*Celular Indumentaria*/
